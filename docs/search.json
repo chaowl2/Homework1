@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "ds_reflection.html",
+    "href": "ds_reflection.html",
+    "title": "Data Science Reflections",
+    "section": "",
+    "text": "I think being a data scientist is about taking messy, real-world data and turning it into useful insights. It’s not just about writing code or running models, but also about asking the right questions and communicating results with stakeholders so they can make better decisions.\nSome differences and similarities I see between data scientists and statisticians are:\n- **Similarities**: both use data, probability, and statistical thinking to answer questions.\n- **Differences**: statisticians often emphasize theory, inference, and study design, while data scientists tend to focus more on working with larger datasets, coding, and applying machine learning techniques.\nIn terms of how I view myself:\n- I have a solid background in statistics, so I connect with the statistician side.\n- At the same time, I work full time as a Data Scientist in Inventory Management.\n- My goal is to strengthen my knowledge in Statistics."
+  },
+  {
+    "objectID": "ds_reflection.html#part-2-r-code-exploration",
+    "href": "ds_reflection.html#part-2-r-code-exploration",
+    "title": "Data Science Reflections",
+    "section": "## Part 2: R Code Exploration",
+    "text": "## Part 2: R Code Exploration\nHere we will explore the density of Petal.Width from the iris dataset.\n\n# Create the density object\ny = density(iris$Petal.Width)\n\n\n# Check the class, type, and structure\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\""
+  }
+]

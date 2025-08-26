@@ -1,0 +1,46 @@
+---
+title: "Data Science Reflections"
+author: "Derek Chao"
+format: html
+editor: visual
+---
+
+## \## Part 1: Reflections on Data Science
+
+I think being a data scientist is about taking messy, real-world data and turning it into useful insights. It's not just about writing code or running models, but also about asking the right questions and communicating results with stakeholders so they can make better decisions.
+
+Some differences and similarities I see between data scientists and statisticians are:
+
+\- \*\*Similarities\*\*: both use data, probability, and statistical thinking to answer questions.
+
+\- \*\*Differences\*\*: statisticians often emphasize theory, inference, and study design, while data scientists tend to focus more on working with larger datasets, coding, and applying machine learning techniques.
+
+In terms of how I view myself:
+
+\- I have a solid background in statistics, so I connect with the statistician side.
+
+\- At the same time, I work full time as a Data Scientist in Inventory Management.
+
+\- My goal is to strengthen my knowledge in Statistics.
+
+## \## Part 2: R Code Exploration
+
+Here we will explore the density of Petal.Width from the iris dataset.
+
+```{r}
+# Create the density object
+y = density(iris$Petal.Width)
+
+```
+
+```{r}
+# Check the class, type, and structure
+class(y)
+typeof(y)
+str(y)
+```
+
+```{r, echo=FALSE}
+# Plot the density (code hidden in final HTML)
+plot(y, main = "Density of Petal Width in Iris Dataset")
+```
